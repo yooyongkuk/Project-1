@@ -1,0 +1,70 @@
+@charset "UTF-8";
+*{margin: 0 ; padding: 0; font-family: Arial;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;color: #333;}
+*{font-family:"Hannari" ;}
+
+#slider{position: relative; width: 1903px; height: 937px ;margin: 0 auto; 
+    background-color: aqua; box-sizing: border-box;overflow: hidden;}
+    video{position: absolute;top:0; left: 0; width: 100%; }
+
+        #slider #sec{display: flex;flex-direction: row; justify-content: space-between;
+        align-items: baseline; position:absolute; top:0; left: 0; width: 100%;  height: 100%;}
+                #slider #sec > div{position: absolute; }
+                #slider #sec .lsl{width: 30px; height:937px; background-color: red;}
+                #slider #sec .msl{width: 700px; height: 300px; top:150px; left: 200px;}
+                        #slider #sec .msl h3{font-size: 24px; color: rgb(133, 246, 233);font-family:"Hannari";}
+                        #slider #sec .msl h1{font-size: 48px; color: rgb(255, 255, 255);font-family:"Arial";}
+                #slider #sec .rsl{overflow: auto; position: absolute; display: flex; flex-direction: column;
+                        width: 300px; height:800px; right:0 ;bottom: 0;background-color: red;}
+                #slider #sec .rsl .box{box-sizing: border-box;overflow: hidden; width: auto; height: 150px; margin: 9px; 
+                        background-color: rgb(243, 150, 231);border: 2px solid 0;border-radius: 8px;}
+                #slider #sec .rsl .box img{max-width: 100%; width: auto; height: auto;}
+        
+
+                #slider #syousai_1{width: 1200px; height: 500px; overflow: auto; box-sizing:border-box;background-color: red;}
+                #slider #naiyou{overflow: auto; width: auto; height: 500px; background-color: blanchedalmond;position: absolute; 
+                        top:50%; left: 50%;transform: translate(-50%,-10%); box-sizing: border-box;}
+                #slider #naiyou .corse{display: flex; justify-content: space-around;align-items: center; width: 1160px; height:60px; 
+                        background-color: aqua;margin: 0 auto; flex-wrap: wrap;}
+                #naiyou .corse .corsetitle{padding: 0 0 6px 0; width: 320px; height: 44px; font-size: 26px; text-align: center;
+                        border-radius: 8px;font-weight: bolder; color: rgb(223, 86, 86);}
+                #slider #naiyou .corse button {padding: 0 0 6px 0; width: 260px; height: 50px; font-size: 26px;
+                        background-color: white;border: 0;border-radius: 8px;font-weight: bolder; color: #333;}
+                
+                #slider #naiyou .kosusenntaku{overflow: auto;width: 1200px;height: 440px; background-color: rgb(193, 80, 96);overflow:auto;}
+                #slider #naiyou .kosusenntaku h2{margin:5px 0 5px 70px;}
+                #slider #naiyou .puran{display: flex;justify-content: space-between;align-items: center; width: 1150px; height:50px; 
+                        background-color: rgb(120, 145, 145);margin: 0 auto; padding: 0px; font-size: 22px;font-weight: 
+                        bolder;color: #333; }                 
+                
+                #slider #naiyou .puran span{margin: 0 0 0 20px;} 
+                #slider #naiyou .puran .senntaku{width: 50px; }
+                #slider #naiyou .puran button{margin: 0 60px 0 0; width: 100px;background-color: antiquewhite;text-align: center;border: 0; border-radius: 8px; font-size: 18px;}           
+                
+                #slider #naiyou .pyo{display: flex;justify-content: space-between;align-content: center; width: 1150px; height:120px; 
+                        flex-wrap: wrap; 
+                        background-color: rgb(27, 231, 231);margin: 0px auto; padding: 0px; font-size: 26px;font-weight: bolder;color: #333;}                 
+                #slider #naiyou .pyo p{margin: 4px; width: 210px; height: 30px; text-align:center;font-size: 16px;
+                                background-color: white;border: 0;border-radius: 6px;font-weight: bolder; color: #333;}
+                #slider #naiyou .pyo .line1{flex-grow: 8;}
+                #slider #naiyou .pyo .price{color: red;}
+                #slider #naiyou .pyo .button:hover{color: red; cursor:pointer;}
+                #slider .hibi input{margin-top: 20px;}
+                #slider .hibi span{margin: 0 3px 0 32px;color: red;font-weight: bold;}
+                 
+                #slider #naiyou .jouhou{overflow: auto;width: 1200px;height: 1000px; background-color: rgb(193, 80, 96);overflow:auto;}
+                #slider #naiyou .jouhou h2{margin:5px 0 5px 70px;}
+                #slider #naiyou .jouhou .pyo_1{margin:5px 0 5px 28px;}
+                #slider #naiyou .jouhou .pyo_1 img{border-radius: 6px;}
+                #slider #naiyou .jouhou .tuasyoukai{display: flex;align-items: center; width: 1100px; height:130px; text-align: justify;
+                        background-color: rgb(47, 242, 242);margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px;color: #333; 
+                        border-radius: 6px;}
+                #slider #naiyou .jouhou .nitei table{margin: 0 0 0 28px; font-size: 18px; color: #333;}
+                #slider #naiyou .jouhou .nitei th{background-color: darkgrey; width: 200px; height: 30px; border-radius: 3px;}
+                #slider #naiyou .jouhou .nitei td{background-color: rgb(183, 244, 173); width: 600px; padding: 0 0 0 20px; border-radius: 3px;}
+                                                    
+                                
+                
+              
+                
