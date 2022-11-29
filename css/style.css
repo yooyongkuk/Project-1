@@ -1,0 +1,279 @@
+@charset "UTF-8";
+*{margin: 0 ; padding: 0; font-family: Arial;}
+ul,li,ol{list-style: none;}
+a{text-decoration: none;color: #333;}
+
+header{width:1903px;height:150px;position: absolute;top: 0;left: 50%; transform: translateX(-50%); z-index: 5;}
+    #logo{float: left; width: 160px; height: 60px; margin: 45px 0 0 200px; }
+    #logo img {width: 100%;}
+    #logo:hover{scale: 110%; cursor: pointer;}
+
+    nav{float:left;width: 800px; height: 60px; margin: 45px 0 0 160px;}
+    nav ul{font-family:Arial; font-weight: bold;font-size: 20px;}
+    nav ul li{float: left; padding: 16px 35px; }
+    nav ul li a{font-weight: bold; color: white; }
+    nav ul a:hover{color: red; text-shadow: 2px 0px 5px rgb(144, 133, 133);}
+
+    .telimg{float: right;width: 330px;height: 60px;margin: 45px 150px 0 0px;}
+        .tel1{float: left;width:220px;height: 50px;padding: 0 2px;margin: 12px 2px;}
+        .tel2{float: left;width:50px;height: 50px;padding: 0 2px;margin: 20px 0;}
+        .tel3{float: left;width:20px;height: 20px;padding: 4px 5px;margin: 19px 0; color: white;}
+        .tel1:hover{scale: 105%; cursor: pointer;}
+        .tel2:hover{scale: 105%; cursor: pointer;}
+        .tel3:hover{scale: 105%; cursor: pointer;}
+
+ #slider{position: relative; width: 1903px;height: 880px;margin: 0 auto; background-image: url(../img/lwdtower.jpg);background-color: blue;}
+    #slider .sltext{position: absolute;left: 165px;top: 344px;}
+    #slider .hwasal1{position: absolute;margin-top: 360px;margin-left: 190px; width: 50px; height: 50px; display: inline-block; z-index: 5;}
+        #slider .hwasal1:hover{scale: 110%;cursor: pointer;}
+    #slider .hwasal2{position: absolute;margin-top: 460px;margin-left: 190px;width: 50px; height: 50px; display: inline-block;z-index: 5;}
+        #slider .hwasal2:hover{scale: 110%;cursor: pointer;}
+    #slider h1{font-size: 80px;color: white; margin:15px 200px;}
+    #slider h2{font-size: 40px;color: white; margin:15px 200px;}
+    #slider .view{float: left;width: 500px;height: 60px;margin: 10px 0px 0 200px;}
+    #slider .img1{float: left;width:220px;height: 50px;padding: 5px 2px;margin: 4px 5px;}
+        #slider .img1:hover{scale: 105%; cursor: pointer;}
+    #slider .img2{float: left;width:34px;height: 34px;padding: 0 2px;margin: 18px 0;}
+        #slider .img2:hover{scale: 105%; cursor: pointer;}
+    #slider .img3{float: left;width:200px;height: 20px;padding: 4px 5px;margin: 18px 0; color: white;font-size: 20px;}
+        #slider .img3:hover{scale: 105%; cursor: pointer;color: red;}
+    #slider .yutub{width: 32px;position: absolute; margin-left: 1600px;margin-top: 624px; }
+        #slider .yutub:hover{scale: 105%; cursor: pointer;}
+    #slider .face{width: 32px; position: absolute; margin-left: 1600px;margin-top: 544px;}
+        #slider .face:hover{scale: 105%; cursor: pointer;}
+    #slider .insta{width: 32px; position: absolute; margin-left: 1600px;margin-top: 584px;}
+        #slider .insta:hover{scale: 105%; cursor: pointer;}
+    #slider .serch{float: left; width: 1200px; height: 120px; border-radius: 20px;border: 0px solid red;margin: 230px 0 0 360px;background-image: linear-gradient(to right,#003366,#66cccc);}
+        #slider .serch .ser1{float: left; width:48px; height: 48px;padding: 0 2px;margin: 38px 0 0 40px;}
+            #slider .serch .ser1:hover{scale: 110%; cursor: pointer;}
+        #slider .serch .ser2{float: left; width:500px; height: 48px;padding: 0 2px;margin: 38px 0 0 20px;font-size: 40px;color:#3399cc}
+            #slider .serch .ser2:hover{scale: 105%; cursor: pointer;color: white;}
+        #slider .serch{position: absolute;top: 570px;}
+
+#sec1{width: 1903px; height:705px ; margin:-20px auto;}
+        #sec1 .text1 {float: left; width: 800px;height: 200px;position: relative;}   
+            #sec1 .text1 .t{float: left; width: 450PX;height: 20px;font-size: 38px;color: #333;font-weight: bold;position: absolute;margin-top: 110px;margin-left: 360px;}
+            #sec1 .text1 .t1{float: left; width:100px; height: 20px;padding: 0 2px;margin: 0px;color:  #33cccc;position: absolute;margin-top: 124px;margin-left: 790px;}
+                #sec1 .text1 .t1:hover{scale: 110%; cursor: pointer;color: red;}  
+        #sec1 .text2 {float: left; width: 300px;height: 100px;position: relative;}   
+            #sec1 .text2 .t2{float: left; width: 200PX;height: 20px;color:  #333;position: absolute;margin-top: 122px; margin-left: 520px;}
+                #sec1 .text2 .t2:hover{scale: 110%; cursor: pointer;color: red;}  
+            #sec1 .text2 .img{float: left; width:20px; height: 17px;padding: 0 ;position: absolute;margin-top: 122px; margin-left: 730px;}
+                #sec1 .text2 .img:hover{scale: 110%; cursor: pointer;}
+    #sec1 article{float: left; width: 1903px;height: 480px;margin:0 auto;position: relative;}
+        #sec1 article #box{float: left;width: 1903px;height: 480px;color: white;}
+        #sec1 article #box .box1{background-image: url(../img/busan.jpg); float: left;width: 455px;height: 460px;margin: 10PX 0 0 0;}
+        #sec1 article #box .box2{background-image: url(../img/seoul.png);float: left;width: 24%;height: 460px;margin: 10px 0 0 1.3%;}
+        #sec1 article #box .box3{background-image: url(../img/DDP.jpg);float: left;width: 24%;height: 460px;margin: 10px 0 0 1.3%;}
+        #sec1 article #box .box4{background-image: url(../img/sima.jpg);float: left;width: 455px;height: 460px;margin: 10px 0 0 1.3%;}
+        #sec1 article #box h2{margin: 400px 0px 40px 30px;position: absolute;} 
+            #sec1 article #box h2:hover{scale: 110%; cursor: pointer;color: red;}
+        #sec1 article #box h4{margin: 410px 0px 40px 350px;position: absolute;} 
+            #sec1 article #box h4:hover{scale: 110%; cursor: pointer;color: red;}
+#sec2{width: 1200px; height:1220px ; margin:-20px auto;background-color:white;}    
+        #sec2 .text1 {float: left; width: 800px;height: 200px;position: relative; }   
+            #sec2 .text1 .t{float: left; width: 450PX;height: 20px;font-size: 38px;color: #333;font-weight: bold;position: absolute;margin-top: 100px;margin-left:0px;}
+            #sec2 .text1 .t1{float: left; width:250px; height: 20px;padding: 0 2px;margin: 0px;color:  #33cccc;position: absolute;margin-top: 112px;margin-left: 430px;}
+                #sec2 .text1 .t1:hover{scale: 110%; cursor: pointer;color: red;}
+        #sec2 .text2 {float: left; width: 300px;height: 100px;position: relative;}   
+            #sec2 .text2 .t2{float: left; width: 200PX;height: 20px;color:  #333;position: absolute;margin-top: 112px; margin-left: 150px;}
+                #sec2 .text2 .t2:hover{scale: 110%; cursor: pointer;color: red;}
+            #sec2 .text2 .img{float: left; width:20px; height: 17px;padding: 0 ;position: absolute;margin-top: 112px; margin-left: 360px;}
+                #sec2 .text2 img:hover{scale: 110%; cursor: pointer;}
+            
+        #sec2 article{width: 1200px;height: 1220px;margin: 0px auto ;}
+            #sec2 article #box{float: left; width: 1200px;height: 430px;color: white;}
+                #sec2 article #box .box1{background-color: white; background-image: url(../img/suwon.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 45px 10px 0px;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                #sec2 article #box .box1 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box1 .top a{color: white;}
+                    #sec2 article #box .box1 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box1 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box1 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box1 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box1 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box1 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box1 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box1 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box1 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box1 .kubun .text{font-weight: bold;}
+            
+                #sec2 article #box .box2{background-color: white; background-image: url(../img/hangang.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 45px 10px 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec2 article #box .box2 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box2 .top a{color: white;}
+                    #sec2 article #box .box2 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box2 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box2 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box2 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box2 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box2 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box2 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box2 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box2 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box2 .kubun .text{font-weight: bold;}
+
+                #sec2 article #box .box3{background-color: white; background-image: url(../img/북촌.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 0px 10px 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec2 article #box .box3 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box3 .top a{color: white;}
+                    #sec2 article #box .box3 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box3 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box3 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box3 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box3 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box3 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box3 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box3 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box3 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box3 .kubun .text{font-weight: bold;}
+                    
+                #sec2 article #box .box4{background-color: white; background-image: url(../img/banpo.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 45px 10px 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec2 article #box .box4 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box4 .top a{color: white;}
+                    #sec2 article #box .box4 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box4 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box4 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box4 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box4 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box4 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box4 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box4 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box4 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box4 .kubun .text{font-weight: bold;}
+            
+                #sec2 article #box .box5{background-color: white; background-image: url(../img/myengdong.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 45px 10px 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec2 article #box .box5 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box5 .top a{color: white;}
+                    #sec2 article #box .box5 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box5 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box5 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box5 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box5 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box5 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box5 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box5 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box5 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box5 .kubun .text{font-weight: bold;}
+                
+                #sec2 article #box .box6{background-color: white; background-image: url(../img/lwdtower2.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 0px 10px 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec2 article #box .box6 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                    #sec2 article #box .box6 .top a{color: white;}
+                    #sec2 article #box .box6 .top:hover a{color: #64c9ca;}
+                    #sec2 article #box .box6 .sail{position: absolute;top:15px;right:15px;}
+                    #sec2 article #box .box6 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                    #sec2 article #box .box6 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                    #sec2 article #box .box6 .list{margin-left: 35px;margin-top: 10px;}
+                    #sec2 article #box .box6 .list img{width: 18px;height: 15px;}
+                    #sec2 article #box .box6 .list span{margin-left: 10px;font-weight: bold;}
+                    #sec2 article #box .box6 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                    #sec2 article #box .box6 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                    #sec2 article #box .box6 .kubun .text{font-weight: bold;}
+            
+        #slider2{position: relative; width: 1903px;height:632px;margin: 0 auto; background-image: url(../img/송도.jpg);background-color: blue;}
+                    #slider2 .cover {width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #000; opacity: 0.2;}
+                    #slider2 #sltext{position: absolute;left: 165px;top: 196px;}
+                    #slider2 h1{font-size: 80px;color: white; margin:15px 200px;}
+                    #slider2 h2{font-size: 40px;color: white; margin:15px 200px;}
+                    #slider2 .view{float: left;width: 500px;height: 60px;margin: 10px 0px 0 200px;}
+                    #slider2 .view .img1{float: left;width:220px;height: 50px;padding: 0 2px;margin: 8px 5px;}
+                        #slider2 .view .img1:hover{scale: 110%; cursor: pointer;}
+                    #slider2 .view .img2{float: left;width:34px;height: 34px;padding: 0 2px;margin: 18px 0;}
+                        #slider2 .view .img2:hover{scale: 110%; cursor: pointer;}
+                    #slider2 .view .img3{float: left;width:200px;height: 20px;padding: 4px 5px;margin: 18px 0; color: white;font-size: 20px;}
+                        #slider2 .view .img3:hover{scale: 105%; cursor: pointer;color: red;}
+        #sec3{position: relative; width: 1903px; height:960px ; margin:0px auto;}  
+                    #sec3 #ttl{width: 1200px;height: 180px;margin: 0 auto;}    
+                    #sec3 .t{margin: 80px 0 0 0; color: #333; padding: 10px 0 0 0; font-weight: bold; text-align: center; font-size: 38px; float: left; width: 300px; height: 50px;}
+                    
+                    #sec3 #nav2{float:right;width: 700px; height: 30px; margin: 100px 0 0 0;}
+                    #sec3 #nav2 ul{font-family:Arial; font-weight: bold;font-size: 20px;}
+                    #sec3 #nav2 ul li{float: left; padding: 5px 10px; }
+                    #sec3 #nav2 ul li a{color: #333; font-weight: bold;}
+                    #sec3 #nav2 ul a:hover{color: red;cursor: pointer;}
+                    #sec3 .lef, .rig{width:68px ;height: 88px;}
+            
+                #sec3 article{width: 1200px;height: 432px;margin: 0 auto ;}
+                #sec3 article .box{float: left; width: 370px;height: 430px;color: white;}
+                    #sec3 article .box1{background-color: white; background-image: url(../img/kyounggi.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                    #sec3 article .box1 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                        #sec3 article .box1 .top a{color: white;}
+                        #sec3 article .box1 .top:hover a{color: #64c9ca;}
+                        #sec3 article .box1 .sail{position: absolute;top:15px;right:15px;}
+                        #sec3 article .box1 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                        #sec3 article .box1 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                        #sec3 article .box1 .list{margin-left: 35px;margin-top: 10px;}
+                        #sec3 article .box1 .list img{width: 18px;height: 15px;}
+                        #sec3 article .box1 .list span{margin-left: 10px;font-weight: bold;}
+                        #sec3 article .box1 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                        #sec3 article .box1 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                        #sec3 article .box1 .kubun .text{font-weight: bold;}
+                
+                    #sec3 article .box2{background-color: white; background-image: url(../img/guriying.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 0 0 45px;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                        #sec3 article .box2 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                        #sec3 article .box2 .top a{color: white;}
+                        #sec3 article .box2 .top:hover a{color: #64c9ca;}
+                        #sec3 article .box2 .sail{position: absolute;top:15px;right:15px;}
+                        #sec3 article .box2 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                        #sec3 article .box2 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);}
+                        #sec3 article .box2 .list{margin-left: 35px;margin-top: 10px;}
+                        #sec3 article .box2 .list img{width: 18px;height: 15px;}
+                        #sec3 article .box2 .list span{margin-left: 10px;font-weight: bold;}
+                        #sec3 article .box2 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                        #sec3 article .box2 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                        #sec3 article .box2 .kubun .text{font-weight: bold;}
+
+                    #sec3 article .box3{background-color: white; background-image: url(../img/erin.jpg);background-repeat: no-repeat;  float: left;width: 370px;height: 432px;box-sizing:border-box;margin: 0 0 0 45px;box-shadow: 0 2px 10px rgb(88, 79, 79);color:#333;position: relative;}
+                        #sec3 article .box3 .top{margin-top: 233px;margin-left: 30px;  background-color: red; border-radius: 30px; width: 100px;padding: 6px 0 4px 10px;color: white;background-image:linear-gradient(to right,#04396a,#64c9ca);font-weight: bold;}
+                        #sec3 article .box3 .top a{color: white;}
+                        #sec3 article .box3 .top:hover a{color: #64c9ca;cursor: pointer;}
+                        #sec3 article .box3 .sail{position: absolute;top:15px;right:15px;}
+                        #sec3 article .box3 h2{font-size: 32px; margin-left: 36px;margin-top: 18px;}
+                        #sec3 article .box3 h2:hover a{color: #33cccc; text-shadow:0 2px 2px rgb(245, 208, 208);cursor: pointer;}
+                        #sec3 article .box3 .list{margin-left: 35px;margin-top: 10px;}
+                        #sec3 article .box3 .list img{width: 18px;height: 15px;}
+                        #sec3 article .box3 .list span{margin-left: 10px;font-weight: bold;}
+                        #sec3 article .box3 .kubun{float: right;position: absolute;bottom: 33px;right: 35px;}
+                        #sec3 article .box3 .kubun .price{font-size: 28px;color:black ;text-shadow: 0 2px 2px #2de5e5;font-weight: bold;}
+                        #sec3 article .box3 .kubun .text{font-weight: bold;}
+                    
+                    #sec3 #ssb{position: relative;width: 1200px; height: 100px; margin: 130px auto;}
+                    #sec3 #ssb .how, .serch, .select2,.book{float: left; margin: 24px 34.6px 0 0;}
+                    #sec3 #ssb .map, .select, .calenda{float: left; margin: 0 34.6px 0 0;}
+                        #sec3 #ssb .map:hover{scale:110%;cursor: pointer;}
+                        #sec3 #ssb .select:hover{scale:110%;cursor: pointer;}  
+                        #sec3 #ssb .calenda:hover{scale:110%;cursor: pointer;} 
+                    #sec3 #ssb h3{color:#333;font-weight: bold;}
+                        #sec3 #ssb h4{color:#33cccc ;font-weight: bold;}
+                        #sec3 #ssb h2{color:#333 ;font-weight: bold;font-size: 30px;}
+                        #sec3 #ssb span{color:#33cccc ;font-weight: bold;font-size: 18px;}
+                    #sec3 .rig{position: absolute;top: 0px;margin-left: 1330px;}
+                        #sec3 .rig:hover{box-shadow: 0 2px 4px rgb(113, 106, 106);cursor: pointer;}
+                    #sec3 .lef{position: absolute;top:340px;left: 260px;}
+                        #sec3 .lef:hover{box-shadow: 0 2px 4px rgb(113, 106, 106);cursor: pointer;}
+        footer{ width: 1903px;height: 418px;margin: 0 auto; background-color: #06243e;}
+                    footer #box1{width:1200px ;height:350px ; margin: 0 auto;}
+                    footer #box1 h3{color: #174f72}
+                    footer #box1 p{color:#999999;}
+                        footer #box1 p:hover{color:red;cursor: pointer;}
+                    footer #box1 .box1 .logo2{width: 160px; height: 60px;margin: 0;}
+                    footer #box1 .box1{margin: 64px 20px 0 0; float: left; width: 200px;height:200px; }
+                    footer #box1 .box2{margin: 84px 20px 0 30px; float: left; width: 200px;height:200px; }
+                    footer #box1 .box3{margin: 84px 20px 0 30px; float: left; width: 200px;height:200px; }
+                    footer #box1 .box4{margin: 84px 20px 0 30px; float: left; width: 200px;height:200px; }
+                    footer #box1 .box5{margin: 84px 0 0 30px; float: left; width: 200px;height:200px; }
+                    footer #box1 .box1 img:hover{scale: 110%;cursor:pointer;}
+
+                footer #box2{width: 1903px;height:68px ; margin: 0 auto; background-color: black;}
+                    footer #box2 #box2_1{width: 1200px;height:68px;margin: 0 auto;}
+                    footer #box2 .box1{margin: 28px 0 0 0; color: white; float: left; width: 500px;height: 30px; }
+                    footer #box2 .box2{text-align: right; margin: 28px 0 0 430px; color: white; float: left; width: 160px;height: 30px; }
+                    footer #box2 .box3{padding:  2px 0 0 0; margin: 28px 0 0 0; color: white; float: right; width: 95px;height: 30px; }
+                    
+
+
+            
+
+
+                                
+            
+        
+        
+
