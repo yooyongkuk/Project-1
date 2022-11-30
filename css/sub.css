@@ -13,56 +13,86 @@ a{text-decoration: none;color: #333;}
                 #slider #sec > div{position: absolute; }
                 #slider #sec .lsl{width: 30px; height:937px; background-color: red;}
                 #slider #sec .msl{width: 700px; height: 300px; top:150px; left: 200px;}
-                        #slider #sec .msl h3{font-size: 24px; color: rgb(133, 246, 233);font-family:"Hannari";}
-                        #slider #sec .msl h1{font-size: 48px; color: rgb(255, 255, 255);font-family:"Arial";}
+                        #slider #sec .msl h3{ font-size: 24px; color: rgb(255, 255, 255);font-family:"Hannari";}
+                        #slider #sec .msl h3:hover{color:red; transform: scale(105%);}
+                        #slider #sec .msl h1{text-shadow:2PX 1PX 2PX #a8a5a1; font-size: 48px; color: rgb(255, 255, 255);font-family:"Arial";}
+                        #slider #sec .msl h1:hover{color:red; transform: scale(105%);}
                 #slider #sec .rsl{overflow: auto; position: absolute; display: flex; flex-direction: column;
                         width: 300px; height:800px; right:0 ;bottom: 0;background-color: red;}
                 #slider #sec .rsl .box{box-sizing: border-box;overflow: hidden; width: auto; height: 150px; margin: 9px; 
                         background-color: rgb(243, 150, 231);border: 2px solid 0;border-radius: 8px;}
+                #slider #sec .rsl .box> h2{position: absolute; top:10px;right: 30px; font-size: 28px;
+                        color: rgb(255, 255, 255);}
                 #slider #sec .rsl .box img{max-width: 100%; width: auto; height: auto;}
+                #slider #sec .rsl .box img:hover{transform: scale(110%); cursor: pointer;}
         
 
-                #slider #syousai_1{width: 1200px; height: 500px; overflow: auto; box-sizing:border-box;background-color: red;}
-                #slider #naiyou{overflow: auto; width: auto; height: 500px; background-color: blanchedalmond;position: absolute; 
-                        top:50%; left: 50%;transform: translate(-50%,-10%); box-sizing: border-box;}
-                #slider #naiyou .corse{display: flex; justify-content: space-around;align-items: center; width: 1160px; height:60px; 
-                        background-color: aqua;margin: 0 auto; flex-wrap: wrap;}
-                #naiyou .corse .corsetitle{padding: 0 0 6px 0; width: 320px; height: 44px; font-size: 26px; text-align: center;
-                        border-radius: 8px;font-weight: bolder; color: rgb(223, 86, 86);}
-                #slider #naiyou .corse button {padding: 0 0 6px 0; width: 260px; height: 50px; font-size: 26px;
-                        background-color: white;border: 0;border-radius: 8px;font-weight: bolder; color: #333;}
-                
-                #slider #naiyou .kosusenntaku{overflow: auto;width: 1200px;height: 440px; background-color: rgb(193, 80, 96);overflow:auto;}
-                #slider #naiyou .kosusenntaku h2{margin:5px 0 5px 70px;}
-                #slider #naiyou .puran{display: flex;justify-content: space-between;align-items: center; width: 1150px; height:50px; 
+                #slider #syousai_1{width: 1200px; height: 500px; box-sizing:border-box;position: absolute; 
+                        top:50%; left: 50%;transform: translate(-50%,-10%);}
+                #slider #naiyou{overflow: auto; width: 100%; height: 500px; box-sizing: border-box;}
+                #slider #naiyou .corse{border-radius: 10px;background-color: rgb(177, 180, 182); display: flex; justify-content: space-around;align-items: center; width: 100%; height:60px; 
+                        margin: 0 auto; flex-wrap: wrap; position: sticky; top:0}
+                #naiyou .corse .corsetitle{text-shadow:2PX 1PX 2PX #dfdad2; padding: 0 0 24px 0; width: 320px; height: 44px; font-size: 38px; text-align: center;
+                        border-radius: 8px;font-weight: bolder; color:#1d5f82;}
+                #slider #naiyou .corse button {box-shadow: 1px 1px 2px #333; margin: 0 0 7px 0; text-shadow:1PX 1PX 1PX white; padding: 0 0 6px 0; width: 200px; height: 50px; font-size: 26px;
+                        background-color: white;border: 0;border-radius: 8px;font-weight: bolder;color:#a8a5a1;}
+                #slider #naiyou .corse button:hover{background-color: red; transform: scale(102%); cursor: pointer; color: white;}
+                #slider #naiyou .corse .po3{width: 60px; background-color: cadetblue;font-size: 18px; }
+                #slider #naiyou .corse .po3:hover{transform: scale(102%); cursor: pointer; color:white;}
+                #slider #naiyou .kosusenntaku{border-radius: 10px; width: 100% ;height: 440px; background-color: #1d5f82;}
+                #slider #naiyou .kosusenntaku h2{color: white; margin:5px 0 5px 70px;}
+                #slider #naiyou .puran{border-radius: 10px; display: flex;justify-content: space-between;align-items: center; width: 1150px; height:50px; 
                         background-color: rgb(120, 145, 145);margin: 0 auto; padding: 0px; font-size: 22px;font-weight: 
-                        bolder;color: #333; }                 
+                        bolder;color: rgb(196, 214, 220) } 
+                #slider #naiyou .puran:hover{color: red;}                
                 
                 #slider #naiyou .puran span{margin: 0 0 0 20px;} 
-                #slider #naiyou .puran .senntaku{width: 50px; }
-                #slider #naiyou .puran button{margin: 0 60px 0 0; width: 100px;background-color: antiquewhite;text-align: center;border: 0; border-radius: 8px; font-size: 18px;}           
+                #slider #naiyou .puran .senntaku{width: 50px; margin: 0 0 10px 0; }
+                #slider #naiyou .puran .senntaku:hover{transform: scale(105%); cursor: pointer; }
+                #slider #naiyou .puran button{padding: 0 0 5px 0; box-shadow: 1px 1px 2px #333; margin: 0 60px 0 0; width: 60px;background-color: rgb(177, 180, 182);text-align: center;
+                        border: 0; border-radius: 8px; font-size: 18px; font-weight: bold;color: white;}           
+                #slider #naiyou .puran button:hover{background-color: red; transform: scale(102%); cursor: pointer; color:white;}
                 
                 #slider #naiyou .pyo{display: flex;justify-content: space-between;align-content: center; width: 1150px; height:120px; 
-                        flex-wrap: wrap; 
-                        background-color: rgb(27, 231, 231);margin: 0px auto; padding: 0px; font-size: 26px;font-weight: bolder;color: #333;}                 
+                        flex-wrap: wrap;margin: 0px auto; padding: 0px; font-size: 26px;font-weight: bolder;color: #1d5f82;}                 
                 #slider #naiyou .pyo p{margin: 4px; width: 210px; height: 30px; text-align:center;font-size: 16px;
-                                background-color: white;border: 0;border-radius: 6px;font-weight: bolder; color: #333;}
+                                background-color: white;border: 0;border-radius: 6px;font-weight: bolder; color: #1d5f82;}
                 #slider #naiyou .pyo .line1{flex-grow: 8;}
                 #slider #naiyou .pyo .price{color: red;}
                 #slider #naiyou .pyo .button:hover{color: red; cursor:pointer;}
-                #slider .hibi input{margin-top: 20px;}
-                #slider .hibi span{margin: 0 3px 0 32px;color: red;font-weight: bold;}
+                #slider .hibi input{margin-top: 20px; border-radius: 4px;}
+                #slider .hibi input:hover{cursor: pointer; transform: scale(102%);}
+                #slider .hibi span{margin: 0 3px 0 32px;color:white;font-weight: bold;}
+                #slider .hibi span:hover{color: red; transform: scale(105%); cursor: pointer;}
                  
-                #slider #naiyou .jouhou{overflow: auto;width: 1200px;height: 1000px; background-color: rgb(193, 80, 96);overflow:auto;}
-                #slider #naiyou .jouhou h2{margin:5px 0 5px 70px;}
+                #slider #naiyou .jouhou{border-radius: 10px; width: 100%;height: 1160px; background-color: rgb(193, 80, 96)}
+                #slider #naiyou .jouhou h2{color: white; margin:5px 0 5px 70px;}
                 #slider #naiyou .jouhou .pyo_1{margin:5px 0 5px 28px;}
-                #slider #naiyou .jouhou .pyo_1 img{border-radius: 6px;}
-                #slider #naiyou .jouhou .tuasyoukai{display: flex;align-items: center; width: 1100px; height:130px; text-align: justify;
-                        background-color: rgb(47, 242, 242);margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px;color: #333; 
+                #slider #naiyou .jouhou .pyo_1 img{border-radius: 6px; box-shadow: 3px 0 2px #333;}
+                #slider #naiyou .jouhou .tuasyoukai{display: flex;align-items: center; width: 1080px; height:130px; text-align: justify;
+                        background-color: rgb(255, 255, 255);margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px;color: #1d5f82; 
+                        border-radius: 6px; font-family:hannari ; font-weight: bold;}
+                #slider #naiyou .jouhou .nitei table{vertical-align:middle; margin: 0 0 0 28px; font-size: 18px; color: #1d5f82;}
+                #slider #naiyou .jouhou .nitei th{background-color: white; width: 200px; height: 30px; border-radius: 3px;}
+                #slider #naiyou .jouhou .nitei td{font-weight: bold; background-color: white; width: 600px; padding: 0 0 0 20px; border-radius: 3px;}
+
+                #slider #naiyou .jouhou .aksesu table{margin: 0 0 0 28px; font-size: 18px; color: #1d5f82;}
+                #slider #naiyou .jouhou .aksesu th{color: #1d5f82; background-color: #ffffff; width: 200px; height: 30px; border-radius: 3px;}
+                #slider #naiyou .jouhou .aksesu td{font-weight: bold; background-color: white; width: 600px; padding: 0 0 0 20px; border-radius: 3px;}
+
+                #slider #naiyou .jouhou .tyuijikou{display: flex;align-items: center; width: 1080px; height:130px; text-align: left;
+                        background-color: white;margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px;color: rgb(255, 0, 0); 
+                        border-radius: 6px; font-weight: lighter;}
+                
+                #slider #naiyou .jouhou .cxl{display: flex;align-items: center; width: 1080px; height:130px; text-align: left;
+                                background-color:white;margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px;color: rgb(255, 0, 0); 
+                                border-radius: 6px; font-weight: lighter;}
+
+                #slider #naiyou #leview{color: #1d5f82; font-size: 22px; border-radius: 10px; width: 100% ;height: 440px; background-color: blanchedalmond;}
+                #slider #naiyou #leview h2,h4{margin:5px 0 5px 70px;}
+                #slider #naiyou .view{display: flex;align-items: center; width: 1100px; height:130px; text-align: center;
+                        background-color: rgb(255, 255, 255);margin: 0 auto; padding: 0 20px 0 20px; font-size: 18px; 
                         border-radius: 6px;}
-                #slider #naiyou .jouhou .nitei table{margin: 0 0 0 28px; font-size: 18px; color: #333;}
-                #slider #naiyou .jouhou .nitei th{background-color: darkgrey; width: 200px; height: 30px; border-radius: 3px;}
-                #slider #naiyou .jouhou .nitei td{background-color: rgb(183, 244, 173); width: 600px; padding: 0 0 0 20px; border-radius: 3px;}
                                                     
                                 
                 
