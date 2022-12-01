@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/sub.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/hannari.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/sub.js"></script>
 </head>
 <body>
     <header>
@@ -31,9 +33,16 @@
     </header>
 
     <div id="slider">
-        <video src="../home/img/seoul.mp4" loop muted autoplay></video>    
+        <video src="../home/img/seoul2.mp4" loop muted autoplay></video>    
         <div id="sec">
-            <div class="lsl"></div>
+            <div class="lsl">
+                <div class="social">
+                    <p><img src="img/face.png" alt="face book"></p>
+                    <p><img src="img/insta.png" alt="insta"></p>
+                    <p><img src="img/yutub.png" alt="yutube"></p>
+                    <p><img src="img/새.png" alt=""></p>
+                </div>
+            </div>
             <div class="msl">
               <h1><b>Seoul</b><br>City tour !</h1>
               <br>
@@ -41,45 +50,51 @@
             </div>
             <div class="rsl">
                 <div class="rslside">
-                    <div class="box">
+                    <div class="box" id="dongdaemun">
                         <img src="img/DDP2.jpg" alt="kpop">
                         <h2>東大門</h2>
+                        <a href="https://www.youtube.com/watch?v=dGce0I9rZok&t=39s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
-                    <div class="box">
+                    <div class="box" id="banpo">
                         <img src="img/banpo.jpg" alt="kpop">
-                        
+                        <h2>バンポ</h2>
+                        <a href="https://www.youtube.com/watch?v=3EHFfIB-z9o&t=5s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
-                    <div class="box">
+                    <div class="box" id="rotewarudo">
                         <img src="img/lwdtower2.jpg" alt="kpop">
-                        
+                        <h2>ロッテワールド</h2>
+                        <a href="https://www.youtube.com/watch?v=v6LnahqNT2s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
-                    <div class="box">
+                    <div class="box" id="sityou">
                         <img src="img/seoul2.png" alt="kpop">
-                        
+                        <h2>市庁広場</h2>
+                        <a href="https://www.youtube.com/watch?v=dGce0I9rZok&t=39s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
-                    <div class="box">
+                    <div class="box" id="bukchon">
                         <img src="img/북촌.jpg" alt="kpop">
-                        
+                        <h2>北村</h2>
+                        <a href="https://www.youtube.com/watch?v=dGce0I9rZok&t=39s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
-                    <div class="box">
+                    <div class="box" id="mdong">
                         <img src="img/myengdong.jpg" alt="kpop">
-                        
+                        <h2>明洞</h2>
+                        <a href="https://www.youtube.com/watch?v=dGce0I9rZok&t=39s"> <img src="img/yutub.png" alt="" ></a>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div id="syousai_1">
-            <div id="naiyou">
+        <div id="syousai">
+            <div class="naiyou">
                 <div class="corse">
                     <p class="corsetitle">東大門散策</p>
                     <button type="button" class="po1">コース選択</button>
                     <button type="button" class="po2">商品情報</button>
-                    <button type="button" class="po2">レビュー</button>
+                    <button type="button" class="po2_1">レビュー</button>
                     <button type="button" class="po3">予約</button>
-                    <button type="button" class="po3">EXIT</button>
+                    <button type="button" class="po3 po4">EXIT</button>
                 </div>
-                
+        
                 <div class="kosusenntaku">
                     <h2>コース選択</h2>
                     <div class="puran">
@@ -92,13 +107,13 @@
                         <p>10%</p>
                         <p class="price">&#92;162,000</p>
                         <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
-            
+        
                         <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
                         <p><s>&#92;180,000</s></p>
                         <p>10%</p>
                         <p class="price">&#92;162,000</p>
                         <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
-            
+        
                         <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
                         <p><s>&#92;180,000</s></p>
                         <p>10%</p>
@@ -115,13 +130,13 @@
                         <p>10%</p>
                         <p class="price">&#92;162,000</p>
                         <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
-            
+        
                         <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
                         <p><s>&#92;180,000</s></p>
                         <p>10%</p>
                         <p class="price">&#92;162,000</p>
-                        <p class="button"> <input type="number" name="num"placeholder="0" style="border:0 solid black"></p>
-            
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
                         <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
                         <p><s>&#92;180,000</s></p>
                         <p>10%</p>
@@ -130,7 +145,7 @@
                     </div>
                     <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
                 </div>
-
+        
                 <div class="jouhou">
                     <h2>商品情報</h2>
                     <div class="pyo_1">
@@ -139,12 +154,12 @@
                         <img src="img/gaido.png" alt="">
                         <img src="img/harai.png" alt="">
                     </div>
-                    
                     <h2>ツアー紹介</h2>
                     <div class="tuasyoukai">
-                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。 2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。 現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
                     </div>
-                    
                     <h2>スケジュール</h2>
                     <div class="nitei">
                         <table>
@@ -174,7 +189,7 @@
                             </tr>
                         </table>
                     </div>
-
+        
                     <h2>アクセス</h2>
                     <div class="aksesu">
                         <table>
@@ -183,42 +198,787 @@
                                 <td>ロッテホテル本館2階ツアーラウンジ出発
                                 </td>
                             </tr>
-                            <tr>    
-                                 <td>ソウル市中区乙支路30</td>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
                             </tr>
                             <tr>
                                 <th rowspan="2">解散</th>
                                 <td>明洞にて散策及び解散</td>
                             </tr>
-                            <tr>    
-                                 <td>ソウル市中区</td>
+                            <tr>
+                                <td>ソウル市中区</td>
                             </tr>
                         </table>
                     </div>
-
+        
                     <h2>注意事項</h2>
                     <div class="tyuijikou">
-                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br> 
-                            &#42; 集合時間の厳守をお願いします。<br>
-                            &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
                     </div>
-
+        
                     <h2>キャンセルポリシー</h2>
                     <div class="cxl">
-                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br> 
-                            &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
                         </p>
                     </div>
                 </div>
-                <div id="leview">
+                <div class="leview">
                     <h2>レビュー</h2>
                     <h4>レビュー<span>0</span>件</h4>
                     <div class="view">
-                       レビューはありません
+                        レビューはありません
                     </div>
                 </div>
             </div>
-        </div> 
+        
+            <div class="naiyou">
+                <div class="corse">
+                    <p class="corsetitle">バンポ大橋の夜景</p>
+                    <button type="button" class="po1">コース選択</button>
+                    <button type="button" class="po2">商品情報</button>
+                    <button type="button" class="po2_1">レビュー</button>
+                    <button type="button" class="po3">予約</button>
+                    <button type="button" class="po3 po4">EXIT</button>
+                </div>
+        
+                <div class="kosusenntaku">
+                    <h2>コース選択</h2>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>混載プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>専用車プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
+                </div>
+        
+                <div class="jouhou">
+                    <h2>商品情報</h2>
+                    <div class="pyo_1">
+                        <img src="img/tiiki.png" alt="">
+                        <img src="img/jikan.png" alt="">
+                        <img src="img/gaido.png" alt="">
+                        <img src="img/harai.png" alt="">
+                    </div>
+                    <h2>ツアー紹介</h2>
+                    <div class="tuasyoukai">
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                    </div>
+                    <h2>スケジュール</h2>
+                    <div class="nitei">
+                        <table>
+                            <tr>
+                                <th>09:00</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th>16:00</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>アクセス</h2>
+                    <div class="aksesu">
+                        <table>
+                            <tr>
+                                <th rowspan="2">出発</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">解散</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>注意事項</h2>
+                    <div class="tyuijikou">
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                    </div>
+        
+                    <h2>キャンセルポリシー</h2>
+                    <div class="cxl">
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="leview">
+                    <h2>レビュー</h2>
+                    <h4>レビュー<span>0</span>件</h4>
+                    <div class="view">
+                        レビューはありません
+                    </div>
+                </div>
+            </div>
+
+            <div class="naiyou">
+                <div class="corse">
+                    <p class="corsetitle">ロッテワールド</p>
+                    <button type="button" class="po1">コース選択</button>
+                    <button type="button" class="po2">商品情報</button>
+                    <button type="button" class="po2_1">レビュー</button>
+                    <button type="button" class="po3">予約</button>
+                    <button type="button" class="po3 po4">EXIT</button>
+                </div>
+        
+                <div class="kosusenntaku">
+                    <h2>コース選択</h2>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>混載プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>専用車プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
+                </div>
+        
+                <div class="jouhou">
+                    <h2>商品情報</h2>
+                    <div class="pyo_1">
+                        <img src="img/tiiki.png" alt="">
+                        <img src="img/jikan.png" alt="">
+                        <img src="img/gaido.png" alt="">
+                        <img src="img/harai.png" alt="">
+                    </div>
+                    <h2>ツアー紹介</h2>
+                    <div class="tuasyoukai">
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                    </div>
+                    <h2>スケジュール</h2>
+                    <div class="nitei">
+                        <table>
+                            <tr>
+                                <th>09:00</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th>16:00</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>アクセス</h2>
+                    <div class="aksesu">
+                        <table>
+                            <tr>
+                                <th rowspan="2">出発</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">解散</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>注意事項</h2>
+                    <div class="tyuijikou">
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                    </div>
+        
+                    <h2>キャンセルポリシー</h2>
+                    <div class="cxl">
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="leview">
+                    <h2>レビュー</h2>
+                    <h4>レビュー<span>0</span>件</h4>
+                    <div class="view">
+                        レビューはありません
+                    </div>
+                </div>
+            </div>
+
+            <div class="naiyou">
+                <div class="corse">
+                    <p class="corsetitle">ソウル市庁広場</p>
+                    <button type="button" class="po1">コース選択</button>
+                    <button type="button" class="po2">商品情報</button>
+                    <button type="button" class="po2_1">レビュー</button>
+                    <button type="button" class="po3">予約</button>
+                    <button type="button" class="po3 po4">EXIT</button>
+                </div>
+        
+                <div class="kosusenntaku">
+                    <h2>コース選択</h2>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>混載プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>専用車プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
+                </div>
+        
+                <div class="jouhou">
+                    <h2>商品情報</h2>
+                    <div class="pyo_1">
+                        <img src="img/tiiki.png" alt="">
+                        <img src="img/jikan.png" alt="">
+                        <img src="img/gaido.png" alt="">
+                        <img src="img/harai.png" alt="">
+                    </div>
+                    <h2>ツアー紹介</h2>
+                    <div class="tuasyoukai">
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                    </div>
+                    <h2>スケジュール</h2>
+                    <div class="nitei">
+                        <table>
+                            <tr>
+                                <th>09:00</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th>16:00</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>アクセス</h2>
+                    <div class="aksesu">
+                        <table>
+                            <tr>
+                                <th rowspan="2">出発</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">解散</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>注意事項</h2>
+                    <div class="tyuijikou">
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                    </div>
+        
+                    <h2>キャンセルポリシー</h2>
+                    <div class="cxl">
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="leview">
+                    <h2>レビュー</h2>
+                    <h4>レビュー<span>0</span>件</h4>
+                    <div class="view">
+                        レビューはありません
+                    </div>
+                </div>
+            </div>
+
+            <div class="naiyou">
+                <div class="corse">
+                    <p class="corsetitle">北村</p>
+                    <button type="button" class="po1">コース選択</button>
+                    <button type="button" class="po2">商品情報</button>
+                    <button type="button" class="po2_1">レビュー</button>
+                    <button type="button" class="po3">予約</button>
+                    <button type="button" class="po3 po4">EXIT</button>
+                </div>
+        
+                <div class="kosusenntaku">
+                    <h2>コース選択</h2>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>混載プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>専用車プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
+                </div>
+        
+                <div class="jouhou">
+                    <h2>商品情報</h2>
+                    <div class="pyo_1">
+                        <img src="img/tiiki.png" alt="">
+                        <img src="img/jikan.png" alt="">
+                        <img src="img/gaido.png" alt="">
+                        <img src="img/harai.png" alt="">
+                    </div>
+                    <h2>ツアー紹介</h2>
+                    <div class="tuasyoukai">
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                    </div>
+                    <h2>スケジュール</h2>
+                    <div class="nitei">
+                        <table>
+                            <tr>
+                                <th>09:00</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th>16:00</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>アクセス</h2>
+                    <div class="aksesu">
+                        <table>
+                            <tr>
+                                <th rowspan="2">出発</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">解散</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>注意事項</h2>
+                    <div class="tyuijikou">
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                    </div>
+        
+                    <h2>キャンセルポリシー</h2>
+                    <div class="cxl">
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="leview">
+                    <h2>レビュー</h2>
+                    <h4>レビュー<span>0</span>件</h4>
+                    <div class="view">
+                        レビューはありません
+                    </div>
+                </div>
+            </div>
+
+            <div class="naiyou">
+                <div class="corse">
+                    <p class="corsetitle">明洞散策</p>
+                    <button type="button" class="po1">コース選択</button>
+                    <button type="button" class="po2">商品情報</button>
+                    <button type="button" class="po2_1">レビュー</button>
+                    <button type="button" class="po3">予約</button>
+                    <button type="button" class="po3 po4">EXIT</button>
+                </div>
+        
+                <div class="kosusenntaku">
+                    <h2>コース選択</h2>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>混載プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="puran">
+                        <p><input type="radio" name="sentaku" class="senntaku"><span>専用車プラン</span></p>
+                        <button>選択</button>
+                    </div>
+                    <div class="pyo">
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+        
+                        <p class="line1">2&#126;3名様申請&#47;1名様料金 </p>
+                        <p><s>&#92;180,000</s></p>
+                        <p>10%</p>
+                        <p class="price">&#92;162,000</p>
+                        <p class="button"> <input type="number" name="num" placeholder="0" style="border:0 solid black"></p>
+                    </div>
+                    <div class="hibi"><span>出発日</span> <input type="text" placeholder="年月日" style="border:0 solid black"></div>
+                </div>
+        
+                <div class="jouhou">
+                    <h2>商品情報</h2>
+                    <div class="pyo_1">
+                        <img src="img/tiiki.png" alt="">
+                        <img src="img/jikan.png" alt="">
+                        <img src="img/gaido.png" alt="">
+                        <img src="img/harai.png" alt="">
+                    </div>
+                    <h2>ツアー紹介</h2>
+                    <div class="tuasyoukai">
+                        <p>ソウル特別市中区の展示場及びショッピングモール。 イギリスの建築家ザハハディッドが設計した。 ホームページによると、世界最大規模の3次元非定型建築物という。
+                            2007年に東大門運動場が撤去されて以来、東大門運動場に対する開発政策の一員として設立され、2008年に着工し、6年ぶりの2014年3月に開場した。
+                            現在運営機関はソウル市出演機関であるソウルデザイン財団であり、2009年に先に開場した東大門歴史文化公園とともに総管理をしている。</p>
+                    </div>
+                    <h2>スケジュール</h2>
+                    <div class="nitei">
+                        <table>
+                            <tr>
+                                <th>09:00</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>自由観光</td>
+                            </tr>
+                            <tr>
+                                <th>16:00</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>アクセス</h2>
+                    <div class="aksesu">
+                        <table>
+                            <tr>
+                                <th rowspan="2">出発</th>
+                                <td>ロッテホテル本館2階ツアーラウンジ出発
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区乙支路30</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2">解散</th>
+                                <td>明洞にて散策及び解散</td>
+                            </tr>
+                            <tr>
+                                <td>ソウル市中区</td>
+                            </tr>
+                        </table>
+                    </div>
+        
+                    <h2>注意事項</h2>
+                    <div class="tyuijikou">
+                        <p> <strong>&#42; 本ツアーは他人と混載フランで専用車フランに進みます。<br>
+                                &#42; 集合時間の厳守をお願いします。<br>
+                                &#42; 集合時間の10分後には、ツアーは出発と同時に乗車できない方は、途中参加および返金はできません。</strong></p>
+                    </div>
+        
+                    <h2>キャンセルポリシー</h2>
+                    <div class="cxl">
+                        <p><strong> &#42; 参加日の2日前18時&#126;ツアー料金の50&#37;<br>
+                                &#42; 参加日の1日前18時&#126;ツアー料金の100&#37;<br></strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="leview">
+                    <h2>レビュー</h2>
+                    <h4>レビュー<span>0</span>件</h4>
+                    <div class="view">
+                        レビューはありません
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <footer>

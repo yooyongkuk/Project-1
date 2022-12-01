@@ -3,41 +3,41 @@
 #slider{position: relative; width: 1903px;height: 880px;margin: 0 auto; background-image: url(../img/lwdtower.jpg);background-color: blue;}
     #slider .sltext{position: absolute;left: 165px;top: 344px;}
     #slider .hwasal1{position: absolute;margin-top: 360px;margin-left: 190px; width: 50px; height: 50px; display: inline-block; z-index: 5;}
-        #slider .hwasal1:hover{scale: 110%;cursor: pointer;}
+        #slider .hwasal1:hover{transform: scale(110%);cursor: pointer;}
     #slider .hwasal2{position: absolute;margin-top: 460px;margin-left: 190px;width: 50px; height: 50px; display: inline-block;z-index: 5;}
-        #slider .hwasal2:hover{scale: 110%;cursor: pointer;}
+        #slider .hwasal2:hover{transform: scale(110%);cursor: pointer;}
     #slider h1{font-size: 80px;color: white; margin:15px 200px;}
     #slider h2{font-size: 40px;color: white; margin:15px 200px;}
     #slider .view{float: left;width: 500px;height: 60px;margin: 10px 0px 0 200px;}
     #slider .img1{float: left;width:220px;height: 50px;padding: 5px 2px;margin: 4px 5px;}
-        #slider .img1:hover{scale: 105%; cursor: pointer;}
+        #slider .img1:hover{transform: scale(110%); cursor: pointer;}
     #slider .img2{float: left;width:34px;height: 34px;padding: 0 2px;margin: 18px 0;}
-        #slider .img2:hover{scale: 105%; cursor: pointer;}
+        #slider .img2:hover{transform: scale(110%); cursor: pointer;}
     #slider .img3{float: left;width:200px;height: 20px;padding: 4px 5px;margin: 18px 0; color: white;font-size: 20px;}
-        #slider .img3:hover{scale: 105%; cursor: pointer;color: red;}
+        #slider .img3:hover{transform: scale(110%); cursor: pointer;color: red;}
     #slider .yutub{width: 32px;position: absolute; margin-left: 1600px;margin-top: 624px; }
-        #slider .yutub:hover{scale: 105%; cursor: pointer;}
+        #slider .yutub:hover{transform: scale(110%); cursor: pointer;}
     #slider .face{width: 32px; position: absolute; margin-left: 1600px;margin-top: 544px;}
-        #slider .face:hover{scale: 105%; cursor: pointer;}
+        #slider .face:hover{transform: scale(110%); cursor: pointer;}
     #slider .insta{width: 32px; position: absolute; margin-left: 1600px;margin-top: 584px;}
-        #slider .insta:hover{scale: 105%; cursor: pointer;}
+        #slider .insta:hover{transform: scale(110%); cursor: pointer;}
     #slider .serch{float: left; width: 1200px; height: 120px; border-radius: 20px;border: 0px solid red;margin: 230px 0 0 360px;background-image: linear-gradient(to right,#003366,#66cccc);}
         #slider .serch .ser1{float: left; width:48px; height: 48px;padding: 0 2px;margin: 38px 0 0 40px;}
-            #slider .serch .ser1:hover{scale: 110%; cursor: pointer;}
+            #slider .serch .ser1:hover{transform: scale(110%); cursor: pointer;}
         #slider .serch .ser2{float: left; width:500px; height: 48px;padding: 0 2px;margin: 38px 0 0 20px;font-size: 40px;color:#3399cc}
-            #slider .serch .ser2:hover{scale: 105%; cursor: pointer;color: white;}
+            #slider .serch .ser2:hover{transform: scale(110%); cursor: pointer;color: white;}
         #slider .serch{position: absolute;top: 570px;}
 
 #sec1{width: 1903px; height:705px ; margin:-20px auto;}
         #sec1 .text1 {float: left; width: 800px;height: 200px;position: relative;}   
             #sec1 .text1 .t{float: left; width: 450PX;height: 20px;font-size: 38px;color: #333;font-weight: bold;position: absolute;margin-top: 110px;margin-left: 360px;}
             #sec1 .text1 .t1{float: left; width:100px; height: 20px;padding: 0 2px;margin: 0px;color:  #33cccc;position: absolute;margin-top: 124px;margin-left: 790px;}
-                #sec1 .text1 .t1:hover{scale: 110%; cursor: pointer;color: red;}  
+                #sec1 .text1 .t1:hover{transform: scale(110%); cursor: pointer;color: red;}  
         #sec1 .text2 {float: left; width: 300px;height: 100px;position: relative;}   
             #sec1 .text2 .t2{float: left; width: 200PX;height: 20px;color:  #333;position: absolute;margin-top: 122px; margin-left: 520px;}
-                #sec1 .text2 .t2:hover{scale: 110%; cursor: pointer;color: red;}  
+                #sec1 .text2 .t2:hover{transform: scale(110%); cursor: pointer;color: red;}  
             #sec1 .text2 .img{float: left; width:20px; height: 17px;padding: 0 ;position: absolute;margin-top: 122px; margin-left: 730px;}
-                #sec1 .text2 .img:hover{scale: 110%; cursor: pointer;}
+                #sec1 .text2 .img:hover{transform: scale(110%); cursor: pointer;}
     #sec1 article{float: left; width: 1903px;height: 480px;margin:0 auto;position: relative;}
         #sec1 article #box{float: left;width: 1903px;height: 480px;color: white;}
         #sec1 article #box .box1{background-image: url(../img/busan.jpg); float: left;width: 455px;height: 460px;margin: 10PX 0 0 0;}
@@ -45,19 +45,19 @@
         #sec1 article #box .box3{background-image: url(../img/DDP.jpg);float: left;width: 24%;height: 460px;margin: 10px 0 0 1.3%;}
         #sec1 article #box .box4{background-image: url(../img/sima.jpg);float: left;width: 455px;height: 460px;margin: 10px 0 0 1.3%;}
         #sec1 article #box h2{margin: 400px 0px 40px 30px;position: absolute;} 
-            #sec1 article #box h2:hover{scale: 110%; cursor: pointer;color: red;}
+            #sec1 article #box h2:hover{transform: scale(110%); cursor: pointer;color: red;}
         #sec1 article #box h4{margin: 410px 0px 40px 350px;position: absolute;} 
-            #sec1 article #box h4:hover{scale: 110%; cursor: pointer;color: red;}
+            #sec1 article #box h4:hover{transform: scale(110%); cursor: pointer;color: red;}
 #sec2{width: 1200px; height:1220px ; margin:-20px auto;background-color:white;}    
         #sec2 .text1 {float: left; width: 800px;height: 200px;position: relative; }   
             #sec2 .text1 .t{float: left; width: 450PX;height: 20px;font-size: 38px;color: #333;font-weight: bold;position: absolute;margin-top: 100px;margin-left:0px;}
             #sec2 .text1 .t1{float: left; width:250px; height: 20px;padding: 0 2px;margin: 0px;color:  #33cccc;position: absolute;margin-top: 112px;margin-left: 430px;}
-                #sec2 .text1 .t1:hover{scale: 110%; cursor: pointer;color: red;}
+                #sec2 .text1 .t1:hover{transform: scale(110%); cursor: pointer;color: red;}
         #sec2 .text2 {float: left; width: 300px;height: 100px;position: relative;}   
             #sec2 .text2 .t2{float: left; width: 200PX;height: 20px;color:  #333;position: absolute;margin-top: 112px; margin-left: 150px;}
-                #sec2 .text2 .t2:hover{scale: 110%; cursor: pointer;color: red;}
+                #sec2 .text2 .t2:hover{transform: scale(110%); cursor: pointer;color: red;}
             #sec2 .text2 .img{float: left; width:20px; height: 17px;padding: 0 ;position: absolute;margin-top: 112px; margin-left: 360px;}
-                #sec2 .text2 img:hover{scale: 110%; cursor: pointer;}
+                #sec2 .text2 img:hover{transform: scale(110%); cursor: pointer;}
             
         #sec2 article{width: 1200px;height: 1220px;margin: 0px auto ;}
             #sec2 article #box{float: left; width: 1200px;height: 430px;color: white;}
@@ -215,9 +215,9 @@
                     #sec3 #ssb{position: relative;width: 1200px; height: 100px; margin: 130px auto;}
                     #sec3 #ssb .how, .serch, .select2,.book{float: left; margin: 24px 34.6px 0 0;}
                     #sec3 #ssb .map, .select, .calenda{float: left; margin: 0 34.6px 0 0;}
-                        #sec3 #ssb .map:hover{scale:110%;cursor: pointer;}
+                        #sec3 #ssb .map:hover{transform: scale(110%);cursor: pointer;}
                         #sec3 #ssb .select:hover{scale:110%;cursor: pointer;}  
-                        #sec3 #ssb .calenda:hover{scale:110%;cursor: pointer;} 
+                        #sec3 #ssb .calenda:hover{transform: scale(110%);cursor: pointer;} 
                     #sec3 #ssb h3{color:#333;font-weight: bold;}
                         #sec3 #ssb h4{color:#33cccc ;font-weight: bold;}
                         #sec3 #ssb h2{color:#333 ;font-weight: bold;font-size: 30px;}
