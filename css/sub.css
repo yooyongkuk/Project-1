@@ -12,13 +12,13 @@ a{text-decoration: none;color: #333;}
         align-items: baseline; position:absolute; top:0; left: 0; width: 100%;  height: 100%;}
                 #slider #sec > div{position: absolute; }
                 #slider #sec .lsl .social{width: 32px; height: 200px;  position: absolute;margin-top: 170px;margin-left: 20px; position: fixed;}
-                #slider #sec .lsl .social p:hover{opacity: 1; transform: scale(105%); cursor: pointer;}
+                #slider #sec .lsl .social p:hover{opacity: 1; transform: scale(1.05); cursor: pointer;}
                 #slider #sec .lsl{width: 60px; height:937px;}
                 #slider #sec .msl{width: 700px; height: 300px; top:150px; left: 200px;}
                         #slider #sec .msl h3{ font-size: 24px; color: rgb(255, 255, 255);font-family:"Hannari";}
-                        #slider #sec .msl h3:hover{color:red; transform: scale(105%);}
+                        #slider #sec .msl h3:hover{color:red; transform: scale(1.05);}
                         #slider #sec .msl h1{text-shadow:2PX 1PX 2PX #a8a5a1; font-size: 48px; color: rgb(255, 255, 255);font-family:"Arial";}
-                        #slider #sec .msl h1:hover{color:red; transform: scale(105%);}
+                        #slider #sec .msl h1:hover{color:red; transform: scale(1.05);}
                 #slider #sec .rsl{overflow: auto; position: absolute; display: flex; flex-direction: column;
                         width: 300px; height:800px; right:0 ;bottom: 0;}
                 #slider #sec .rsl::-webkit-scrollbar {width: 10px;}
@@ -34,7 +34,7 @@ a{text-decoration: none;color: #333;}
                         color: white; text-shadow:1px 0 1PX #f19898;}
                 #slider #sec .rsl .box> a{position: absolute; bottom:5px;right: 12px;}
                 #slider #sec .rsl .box img, h2{opacity: 0.7; max-width: 100%; width: auto; height: auto;}
-                #slider #sec .rsl .box :hover{opacity: 1; transform: scale(105%); cursor: pointer; color: red;}
+                #slider #sec .rsl .box :hover{opacity: 1; transform: scale(1.05); cursor: pointer; color: red;}
         
 
                 #slider #syousai{width: 1200px; height: 500px; box-sizing:border-box;position: absolute; 
@@ -53,9 +53,9 @@ a{text-decoration: none;color: #333;}
                         border-radius: 8px;font-weight: bolder; color:#1d5f82;}
                 #slider .naiyou .corse button {box-shadow: 1px 1px 2px #333; margin: 0 0 7px 0; text-shadow:1PX 1PX 1PX white; padding: 0 0 6px 0; width: 200px; height: 50px; font-size: 26px;
                         background-color: white;border: 0;border-radius: 8px;font-weight: bolder;color:#a8a5a1;}
-                #slider .naiyou .corse button:hover{background-color: red; transform: scale(102%); cursor: pointer; color: white;}
+                #slider .naiyou .corse button:hover{background-color: red; transform: scale(1.02); cursor: pointer; color: white;}
                 #slider .naiyou .corse .po3 {width: 60px; background-color: cadetblue;font-size: 18px; }
-                #slider .naiyou .corse .po3:hover{transform: scale(102%); cursor: pointer; color:white;}
+                #slider .naiyou .corse .po3:hover{transform: scale(1.02); cursor: pointer; color:white;}
                 #slider .naiyou .kosusenntaku{opacity: 0.9; border-radius: 10px; width: 100% ;height: 440px; background-color: #1d5f82;}
                 #slider .naiyou .kosusenntaku h2{color: white; margin:5px 0 5px 70px;}
                 #slider .naiyou .puran{border-radius: 10px; display: flex;justify-content: space-between;align-items: center; width: 1150px; height:50px; 
@@ -65,10 +65,10 @@ a{text-decoration: none;color: #333;}
                 
                 #slider .naiyou .puran span{margin: 0 0 0 20px;} 
                 #slider .naiyou .puran .senntaku{width: 50px; margin: 0 0 10px 0; }
-                #slider .naiyou .puran .senntaku:hover{transform: scale(105%); cursor: pointer; }
+                #slider .naiyou .puran .senntaku:hover{transform: scale(1.05); cursor: pointer; }
                 #slider .naiyou .puran button{padding: 0 0 5px 0; box-shadow: 1px 1px 2px #333; margin: 0 60px 0 0; width: 60px;background-color: rgb(177, 180, 182);text-align: center;
                         border: 0; border-radius: 8px; font-size: 18px; font-weight: bold;color: white;}           
-                #slider .naiyou .puran button:hover{background-color: red; transform: scale(102%); cursor: pointer; color:white;}
+                #slider .naiyou .puran button:hover{background-color: red; transform: scale(1.02); cursor: pointer; color:white;}
                 
                 #slider .naiyou .pyo{display: flex;justify-content: space-between;align-content: center; width: 1150px; height:120px; 
                         flex-wrap: wrap;margin: 0px auto; padding: 0px; font-size: 26px;font-weight: bolder;color: #1d5f82;}                 
@@ -78,9 +78,9 @@ a{text-decoration: none;color: #333;}
                 #slider .naiyou .pyo .price{color: red;}
                 #slider .naiyou .pyo .button:hover{color: red; cursor:pointer;}
                 #slider .hibi input{margin-top: 20px; border-radius: 4px;}
-                #slider .hibi input:hover{cursor: pointer; transform: scale(102%);}
+                #slider .hibi input:hover{cursor: pointer; transform: scale(1.02);}
                 #slider .hibi span{margin: 0 3px 0 32px;color:white;font-weight: bold;}
-                #slider .hibi span:hover{color: red; transform: scale(105%); cursor: pointer;}
+                #slider .hibi span:hover{color: red; transform: scale(1.05); cursor: pointer;}
                  
                 #slider .naiyou .jouhou{opacity: 0.9; border-radius: 10px; width: 100%;height: 1160px; background-color: rgb(193, 80, 96)}
                 #slider .naiyou .jouhou h2{color: white; margin:5px 0 5px 70px;}
